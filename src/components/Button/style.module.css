@@ -1,0 +1,20 @@
+
+.container {
+  border: 0;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.container.primary {
+  background-color: #000;
+}
+
+.container.secondary {
+  background-color: rgb(26, 49, 94);
+}
+
+.container:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
